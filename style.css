@@ -1,0 +1,59 @@
+/* style.css */
+
+
+@font-face {
+    font-family: 'Lexend Deca';
+    src: url('https://fonts.gstatic.com/s/lexenddeca/v3/K2F2fZZcl-APnqWxgRF3HgqGjDh5.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.gstatic.com/s/inter/v4/WBXtEuXfDf5Hw9aYz1pfUEQhPBVzpLgt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    -webkit-appearance: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.lexend-deca {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h1, h2,h3{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+input{
+    border-color: #939598;
+}
+.checkbox{
+    padding: 8px;
+    outline: none;
+    border-width: 0;
+    border: none;
+    border-color: transparent !important;
+}
+
+.banner{
+    background-image: url('./assets/bgHeader.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+.darkBlue{
+    background-color: #083C74
+}
+
+.lightBlue{
+    background-color: #E9EFFF;
+}
+.grayed{
+    color: #555555;
+    font-size: 18px;
+    font-weight: 500;
+}
